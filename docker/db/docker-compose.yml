@@ -9,3 +9,8 @@ services:
         - POSTGRES_PASSWORD=Navidad003#
         ports:
         - '5432:5432'
+
+        environment:
+            POSTGRES_USER: admin
+            POSTGRES_PASSWORD: admin
+            POSTGRES_DB: testdb
