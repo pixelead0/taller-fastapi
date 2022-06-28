@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 # Docker Postgres
-docker\db\postgres_data
+docker/db/postgres_data/
