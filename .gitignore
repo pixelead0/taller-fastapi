@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Docker Postgres
+docker/db/postgres_data/
+docker/db/postgres_data

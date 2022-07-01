@@ -1,6 +1,10 @@
-FROM python:3.9
+FROM python:3.10-slim-buster
 
 WORKDIR /app
+
+RUN apt-get update
+
+RUN apt-get install
 
 COPY docker/src/requirements.txt /app/requirements.txt
 
